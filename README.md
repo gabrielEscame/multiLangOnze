@@ -12,7 +12,7 @@ This repository is a simple project to explore more about the availble framework
 
 ## contextualization
 
-  > informations directly taken from: [Satish Singh - Linkedin}(https://www.linkedin.com/pulse/difference-between-g11n-i18n-t9n-l10n-satish-singh/)
+  > informations directly taken from: [Satish Singh - Linkedin](https://www.linkedin.com/pulse/difference-between-g11n-i18n-t9n-l10n-satish-singh/)
 
 - **Translation(T9N)**:
   Convert text to other language.

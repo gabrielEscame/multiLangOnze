@@ -1,38 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Rubik, sans-serif;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: #002740;
+  min-height: 100vh;
+  padding: 16px 20px;
+}
+
+.App > select {
+  margin-bottom: 24px;
+}
+
+.App > img {
+  margin-bottom: 96px;
+  height: 20px;
+}
+
+.App > h1 {
+  font-size: 32px;
+  line-height: 40px;
   color: white;
+  margin-bottom: 24px;
+  max-width: 325px;
 }
 
-.App-link {
-  color: #61dafb;
+.App > h1 > b {
+  color: #67d2df;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App > h2 {
+  font-size: 20px;
+  color: white;
+  margin-bottom: 8px;
+}
+
+.App > p {
+  font-size: 18px;
+  max-width: 332px;
+  line-height: 26px;
+  color: white;
+  margin-bottom: 48px;
+}
+
+.App > span {
+  font-size: 16px;
+  color: white;
+  margin-bottom: 32px;
+}
+
+.App > span > b {
+  color: #67d2df;
+}
+
+.App > .button {
+  font-size: 16px;
+  color: #002740;
+  background-color: #67d2df;
+  border-radius: 30px;
+  border: 3px solid transparent;
+  padding: 16px 28px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.App > .button:focus {
+  border: 3px solid rgba(11, 108, 217, 0.8);
+}
+
+.App > .button--text {
+  color: #fff;
+  background-color: transparent;
 }

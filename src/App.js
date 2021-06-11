@@ -5,7 +5,7 @@ import { useState } from "react";
 
 function App() {
   const { t, i18n } = useTranslation();
-  const [count, setCounter] = useState(0);
+  const [count, setCounter] = useState(1);
 
   const onChange = (e) => {
     i18n.changeLanguage(e.target.value);
@@ -16,7 +16,7 @@ function App() {
   };
 
   const onClickRemove = () => {
-    if (count > 0) {
+    if (count > 1) {
       setCounter(count - 1);
     }
   };

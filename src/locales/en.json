@@ -1,0 +1,11 @@
+{
+  "translation": {
+    "title": "Welcome to",
+    "subtitle": "The <bold>best</bold> financial health benefit to your team",
+    "description": "Discover a <bold>corporative pension</bold> with technology and centralized management from ONZE.",
+    "plans": "You own <bold>{{count}} plan</bold> avaiable in your account.",
+    "plans_plural": "You own <bold>{{count}} plans</bold> avaiable in your account.",
+    "plan-add-button": "Add new plan",
+    "plan-remove-button": "Remove plan"
+  }
+}

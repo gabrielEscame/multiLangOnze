@@ -1,0 +1,11 @@
+{
+  "translation": {
+    "title": "Bem-vindo à",
+    "subtitle": "O <bold>melhor benefício</bold> de saúde financeira para o seu time",
+    "description": "Conheça a <bold>previdência corporativa</bold> com tecnologia e gestão centralizada da ONZE.",
+    "plans": "Você tem <bold>{{count}} plano</bold> disponível em sua conta.",
+    "plans_plural": "Você tem <bold>{{count}} planos</bold> disponível em sua conta.",
+    "plan-add-button": "Adicionar plano",
+    "plan-remove-button": "Remover plano"
+  }
+}

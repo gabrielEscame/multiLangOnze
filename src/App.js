@@ -1,7 +1,10 @@
+/* eslint-disable react-hooks/exhaustive-deps */
+
 import logo from "./logo.svg";
 import "./App.css";
 import { useTranslation, Trans } from "react-i18next";
 import { useState } from "react";
+import { newMoment } from "./i18n";
 
 function App() {
   const { t, i18n } = useTranslation();
@@ -23,6 +26,7 @@ function App() {
 
   return (
     <div className="App">
+      <p className="date">{newMoment.format("LLLL")}</p>
       <select name="language" onChange={onChange}>
         <option value="pt">Portuguese</option>
         <option value="en">English</option>

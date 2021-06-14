@@ -2,7 +2,7 @@
 
 ## About
 
-This repository is a simple project to explore more about the availble frameworks tools for internationalization of our applications. I'am using `i18next` and `react-i18next` to create and manage our translations. Also using `i18next-browser-languagedetector` to easily indentify the user current language.
+This repository is a simple project to explore more about the availble frameworks tools for internationalization of our applications. I'am using `i18next`, `react-i18next` and `moment` to create and manage our translations. Also using `i18next-browser-languagedetector` to easily indentify the user current language.
 <br/>
 
 <p align="center">
